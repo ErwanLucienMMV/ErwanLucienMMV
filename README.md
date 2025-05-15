@@ -1,8 +1,8 @@
 ## Hello world! 👋
 
-My name is Erwan Maigne-Montamat  and I'm an IT enjoyer currently searching for a job
+My name is Erwan Maigne-Montamat  and I'm a french IT enjoyer currently searching for a job, feel free to contact me on [LinkedIn](https://www.linkedin.com/in/erwan-maigne-montamat-16196a23a/) I'm down to learn about whatever tools and language you might need some more workforce
 
-## Things I'm decent at with the Front part
+## 🖥️ Things I'm decent at with the Front part
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
@@ -10,7 +10,7 @@ My name is Erwan Maigne-Montamat  and I'm an IT enjoyer currently searching for 
 ![Typsecript](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=fff&style=flat)
 
-## Things can get away with for the back end, controller and DBA part
+## ⚙️ Things can get away with for the back end, controller and DBA part
 ![Node Current](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
 ![NestJS](https://img.shields.io/badge/-NestJs-ea2845?style=flat-square&logo=nestjs&logoColor=white)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white)
