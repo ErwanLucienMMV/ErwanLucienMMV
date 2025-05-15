@@ -2,17 +2,18 @@
 
 My name is Erwan Maigne-Montamat  and I'm an IT enjoyer currently searching for a job
 
-## Things I'm decent at
+## Things I'm decent at with the Front part
 
-![HTML]
-![CSS]
-![Javascript]
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![Javascript](https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E)
 ![Typsecript]
 ![Angular]
-![Java]
-![Python]
 
-
+## Things can get away with for the back end, controller and DBA part
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-FFD43B?style=flat-square&logo=python&logoColor=blue)
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-F2F4F9?style=flat-square&logo=spring-boot)
 ![JUnit5](https://img.shields.io/badge/Junit5-25A162?style=flat-square&logo=junit5&logoColor=white)
 ![Gradle](https://img.shields.io/badge/gradle-02303A?style=flat-square&logo=gradle&logoColor=white)
@@ -40,4 +41,3 @@ My name is Erwan Maigne-Montamat  and I'm an IT enjoyer currently searching for 
 ![Adobe Photoshop](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=flat-square&logo=adobephotoshop&logoColor=black)
 ![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF?style=flat-square&logo=Adobe%20Premiere%20Pro&logoColor=black)
 ![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF?style=flat-square&logo=adobeaftereffects&logoColor=black)
-![Google office](https://img.icons8.com/?size=100&id=17949&format=png&color=000000)
