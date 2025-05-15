@@ -10,7 +10,7 @@ My name is Erwan Maigne-Montamat  and I'm a french IT enjoyer currently searchin
 ![Typsecript](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square)
 ![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=fff&style=flat)
 
-## ⚙️ Things can get away with for the back end, controller and DBA part
+## ⚙️ Things I can get away with for the back end, controller and DBA part
 ![Node Current](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
 ![NestJS](https://img.shields.io/badge/-NestJs-ea2845?style=flat-square&logo=nestjs&logoColor=white)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white)
