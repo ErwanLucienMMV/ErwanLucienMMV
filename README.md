@@ -4,4 +4,4 @@ My name is Erwan Maigne-Montamat  and I'm an IT enjoyer currently searching for 
 
 ## Things I'm decent at
 
-[![CSS](https://skillicons.dev/icons?i=css)]
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,wasm)](https://skillicons.dev)
