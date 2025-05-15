@@ -11,6 +11,7 @@ My name is Erwan Maigne-Montamat  and I'm an IT enjoyer currently searching for 
 ![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=fff&style=flat)
 
 ## Things can get away with for the back end, controller and DBA part
+![Node Current](https://img.shields.io/node/v/:packageName)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-FFD43B?style=flat-square&logo=python&logoColor=blue)
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
