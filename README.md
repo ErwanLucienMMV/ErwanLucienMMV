@@ -1,77 +1,387 @@
-## Hello world! 👋
+<div align="center">
 
-My name is Erwan Maigne-Montamat  and I'm a french IT enjoyer currently searching for a job, feel free to contact me on:  
+# Hello world, I'm Erwan 👋
 
-[![Protonmail](https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:erwan.maigne@proton.me)
-[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/erwan-maigne-montamat-16196a23a/)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/erwan_mmv/)
-[![Linktree](https://img.shields.io/badge/linktree-1de9b6?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/erwanmmv)
+### Full Stack & Systems Developer · 42 Student
 
-## 🖥️ Things I'm decent at with the Front part
+**Software development · Systems programming · Web · DevOps**
 
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Javascript](https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![Typsecript](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square)
-![Angular](https://img.shields.io/badge/Angular-DD0031?logo=angular&logoColor=fff&style=flat)
+<br>
 
-## ⚙️ Things I can get away with for the back end, controller and DBA part
-![Node Current](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
-![NestJS](https://img.shields.io/badge/-NestJs-ea2845?style=flat-square&logo=nestjs&logoColor=white)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-FFD43B?style=flat-square&logo=python&logoColor=blue)
-![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-F2F4F9?style=flat-square&logo=spring-boot)
-![JUnit5](https://img.shields.io/badge/Junit5-25A162?style=flat-square&logo=junit5&logoColor=white)
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat-square&logo=c&logoColor=white)
-![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=flat-square&logo=csharp&logoColor=white)
-![Gradle](https://img.shields.io/badge/gradle-02303A?style=flat-square&logo=gradle&logoColor=white)
-![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat-square&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+<a href="mailto:erwan.maigne@proton.me">
+  <img src="https://img.shields.io/badge/Email-erwan.maigne%40proton.me-informational?style=for-the-badge" alt="Email">
+</a>
+<a href="https://www.linkedin.com/in/erwan-maigne-montamat-16196a23/">
+  <img src="https://img.shields.io/badge/LinkedIn-Erwan%20Maigne%20Montamat-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+</a>
+<a href="https://github.com/ErwanLucienMMV">
+  <img src="https://img.shields.io/badge/GitHub-ErwanLucienMMV-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+</a>
 
+</div>
 
-## 🛠️ Deployment, versionning, and workflow tools I know
-![GitLab CI](https://img.shields.io/badge/GitLab-FC6D26.svg?style=flat-square&logo=GitLab&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717.svg?style=flat-square&logo=GitHub&logoColor=white)
-![Apache](https://img.shields.io/badge/Apache-D22128?style=flat-square&logo=Apache&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat-square&logo=git&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=Jenkins&logoColor=white)
-![Apache Maven](https://img.shields.io/badge/apache_maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white)
-![Travis CI](https://img.shields.io/badge/travis_CI-3EAAAF?style=flat-square&logo=travisci&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=flat-square&logo=docker&logoColor=white)
+---
 
-## 📚 When it comes to follow through project states, documentation I usually use those 
-![Bitbucket](https://img.shields.io/badge/bitbucket-%230047B3.svg?style=flat-square&logo=bitbucket&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=Jira&logoColor=white)
-![Notion](https://img.shields.io/badge/Notion-%23000000.svg?style=flat-square&logo=notion&logoColor=white)
-![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=flat-square&logo=Trello&logoColor=white)
+## 👨‍💻 About Me
 
-## 📖 Technologies I'm learning about
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white) 
-![AWS Services](https://img.shields.io/badge/AWS-Services-orange?style=flat-square&logo=amazonaws&logoColor=white) 
-![DjangoREST](https://img.shields.io/badge/DJANGO-REST-ff1709?style=flat-square&logo=django&logoColor=white&color=ff1709&labelColor=gray)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=flat-square&logo=react&logoColor=%2361DAFB)
-![Unreal Engine](https://img.shields.io/badge/unrealengine-%23313131.svg?style=flat-square&logo=unrealengine&logoColor=white)
-![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=flat-square&logo=github&logoColor=white)
+I'm **Erwan Maigne Montamat**, a French developer and student at **42**, currently completing the common core.
 
-## 👨‍💻 As a working environnement I'm familiar with:
-![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
-![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+My background combines **software development, systems programming and full-stack web development**, with professional experience working on collaborative development projects and CI/CD environments.
 
-## 💻 I'm used to dev with:
-![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white)
-![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
-![Replit](https://img.shields.io/badge/Replit-DD1200?style=for-the-badge&logo=Replit&logoColor=white)
-![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
-![Vim](https://img.shields.io/badge/VIM-%2311AB00.svg?style=for-the-badge&logo=vim&logoColor=white)
+I'm particularly interested in **software engineering, AI and cybersecurity**, and I enjoy understanding how things work underneath the abstractions — from Unix processes and network sockets to web architectures and containerized applications.
 
-## And on an unrelated note I'm also familiar with
-![Adobe Photoshop](https://img.shields.io/badge/Adobe%20Photoshop-31A8FF?style=flat-square&logo=adobephotoshop&logoColor=black)
-![Adobe Premiere Pro](https://img.shields.io/badge/Adobe%20Premiere%20Pro-9999FF?style=flat-square&logo=Adobe%20Premiere%20Pro&logoColor=black)
-![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF?style=flat-square&logo=adobeaftereffects&logoColor=black)
-![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=flat-square&logo=microsoft-excel&logoColor=white)
-![Microsoft Office](https://img.shields.io/badge/Microsoft_Office-D83B01?style=flat-square&logo=microsoft-office&logoColor=white)
+I'm currently looking for an **alternance / professional opportunity** where I can continue developing my skills while contributing to real-world projects.
+
+---
+
+## 🧰 Technical Skills
+
+### Languages
+
+<p>
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black">
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white">
+</p>
+
+### Frontend
+
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white">
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white">
+</p>
+
+### Backend & APIs
+
+<p>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white">
+  <img src="https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white">
+  <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white">
+  <img src="https://img.shields.io/badge/REST_API-02569B?style=flat-square">
+</p>
+
+### Databases
+
+<p>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white">
+  <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white">
+  <img src="https://img.shields.io/badge/SQL-336791?style=flat-square">
+</p>
+
+### DevOps, Version Control & Workflow
+
+<p>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
+  <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white">
+  <img src="https://img.shields.io/badge/Docker_Swarm-2496ED?style=flat-square&logo=docker&logoColor=white">
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white">
+  <img src="https://img.shields.io/badge/GitLab-FC6D26?style=flat-square&logo=gitlab&logoColor=white">
+  <img src="https://img.shields.io/badge/CI%2FCD-222222?style=flat-square">
+  <img src="https://img.shields.io/badge/Agile-2496ED?style=flat-square">
+</p>
+
+### Development Environment
+
+<p>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black">
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white">
+  <img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat-square&logo=intellijidea&logoColor=white">
+  <img src="https://img.shields.io/badge/Eclipse-2C2255?style=flat-square&logo=eclipseide&logoColor=white">
+  <img src="https://img.shields.io/badge/Vim-019733?style=flat-square&logo=vim&logoColor=white">
+</p>
+
+---
+
+## 🚀 Featured Projects
+
+### 🐚 Minishell
+
+A Unix shell developed in C as part of the 42 curriculum.
+
+The project focuses on reproducing core Bash behavior while implementing the underlying mechanisms ourselves:
+
+* Command parsing
+* Pipes and redirections
+* Environment variables
+* Built-in commands
+* File descriptors
+* Process management
+* Memory management
+* POSIX / Unix programming
+
+**Stack:** `C` · `POSIX` · `Linux` · `Bash` · `Git`
+
+---
+
+### 🎨 MiniRT
+
+A small **3D ray-tracing engine** developed in C.
+
+The project involved implementing the mathematical and graphical foundations required to render a 3D scene:
+
+* Ray/object intersection
+* Vectors and surface normals
+* Geometric transformations
+* Dot products and 3D mathematics
+* Lighting calculations
+* Graphical rendering with MiniLibX
+
+**Stack:** `C` · `MiniLibX` · `3D Mathematics`
+
+---
+
+### 🌐 WebServ
+
+A web server written in **C++98**, inspired by the architecture and behavior of Nginx.
+
+The project focuses heavily on systems and networking:
+
+* Object-oriented C++98
+* HTTP protocol
+* Socket programming
+* Event-driven architecture
+* Network I/O
+* Server architecture
+
+**Stack:** `C++98` · `HTTP` · `Linux` · `Sockets` · `Git`
+
+---
+
+### 🏗️ Inception
+
+A containerized infrastructure project built around a multi-service web stack.
+
+The project explores:
+
+* Docker
+* Docker Compose
+* Nginx
+* WordPress
+* MariaDB
+* Container networking
+* Persistent volumes
+* Service configuration
+* Infrastructure management
+
+**Stack:** `Docker` · `Docker Compose` · `Nginx` · `WordPress` · `MariaDB` · `Linux`
+
+---
+
+### 💬 ft_irc
+
+A C++98 IRC server implementing the foundations of an IRC server and client interaction model.
+
+Current work includes:
+
+* TCP socket management
+* Non-blocking I/O
+* Client lifecycle management
+* IRC command parsing
+* Registration handshake
+* PASS / NICK / USER handling
+* IRC numeric replies
+* Channel and JOIN handling
+* Multiple simultaneous clients
+
+**Stack:** `C++98` · `Sockets` · `TCP` · `IRC` · `Linux`
+
+---
+
+### ♟️ Online Chess Platform
+
+A full-stack project currently being designed around an online chess platform.
+
+The planned architecture combines:
+
+* Angular frontend
+* NestJS backend
+* PostgreSQL
+* Real-time multiplayer gameplay
+* Elo-based matchmaking
+* Game history
+* Spectator mode
+* In-game chat
+* Private messaging
+* Multiple AI difficulty levels
+* Monitoring with Prometheus / Grafana
+
+**Stack:** `Angular` · `TypeScript` · `NestJS` · `PostgreSQL` · `Docker`
+
+---
+
+## 💼 Professional Experience
+
+### HN Services · Ingénieur d'Études et Développement
+
+**2023 – 2024**
+
+Worked on software development and integration within a professional team environment.
+
+Responsibilities included:
+
+* Software development and integration
+* Infrastructure support
+* Requirements analysis
+* Technical specifications
+* Project and deadline tracking
+* Agile project management
+* CI/CD pipeline management
+
+A significant part of this experience was the **HNDigitalExperience** project.
+
+**Technologies:** `Angular` · `TypeScript` · `NestJS` · `GraphQL` · `Docker Compose` · `GitLab CI/CD` · `Jira`
+
+---
+
+### Premier Studios · Freelance Video Editor
+
+**2020 – 2022**
+
+Freelance project management and video production, including:
+
+* Client communication
+* Quotes and project planning
+* Deadline management
+* Production
+* Delivery
+
+This experience also gave me an early exposure to **independent project management and client relationships**.
+
+---
+
+### Carrefour Market · Employé commercial
+
+**2023**
+
+Experience involving:
+
+* Stock management
+* Customer relations
+* Organization
+* Team-based work
+
+---
+
+## 🎓 Education
+
+### 42
+
+**2025 – Present**
+
+Currently completing the 42 common core.
+
+Main areas of study:
+
+* C / C++
+* Algorithms
+* Systems programming
+* Unix / Linux
+* Networking
+* Software development
+* Git
+* Peer learning
+
+### EPITA
+
+**Integrated Preparatory Program · 2020 – 2021**
+
+* Algorithms
+* C
+* Rust
+* Computer architecture
+* Electronics
+
+### Baccalauréat Scientifique
+
+**2020 · Mention Bien**
+
+---
+
+## 🧠 How I Like to Work
+
+I particularly enjoy projects where I have to understand **what happens underneath the abstraction**.
+
+That means I'm comfortable moving between:
+
+```text
+┌─────────────────────────────────────────────┐
+│                 APPLICATION                 │
+├─────────────────────────────────────────────┤
+│ Frontend · Backend · APIs · Databases       │
+├─────────────────────────────────────────────┤
+│ Containers · CI/CD · Deployment             │
+├─────────────────────────────────────────────┤
+│ Networking · HTTP · TCP · Sockets            │
+├─────────────────────────────────────────────┤
+│ Processes · Files · Memory · Unix           │
+└─────────────────────────────────────────────┘
+```
+
+I value **understanding, experimentation and problem solving** over simply making something work without understanding why.
+
+---
+
+## 📚 Currently Learning & Exploring
+
+I'm particularly interested in continuing to develop my knowledge around:
+
+* 🤖 Artificial Intelligence
+* 🔐 Cybersecurity
+* 🌐 Network programming
+* 🐧 Linux / Unix systems
+* 🏗️ Software architecture
+* ☁️ Containerization & infrastructure
+* 🔄 CI/CD and development workflows
+* 🧩 Full-stack application architecture
+
+---
+
+## 🌍 Languages
+
+| Language     | Level                 |
+| ------------ | --------------------- |
+| 🇫🇷 French  | Native                |
+| 🇬🇧 English | Professional · B2+/C1 |
+| 🇪🇸 Spanish | Basic · B1            |
+
+---
+
+## 🎲 Outside of Code
+
+When I'm not working on a project, you'll usually find me interested in:
+
+* 🎲 Role-playing games
+* 🎮 Video games
+* 🏋️ Weight training
+
+---
+
+## 📫 Get in Touch
+
+I'm currently open to **alternance / professional opportunities** in software development and related technical fields.
+
+If you'd like to discuss a project, an opportunity, or simply talk about technology:
+
+<div align="center">
+
+**📧 [erwan.maigne@proton.me](mailto:erwan.maigne@proton.me)**
+
+**[LinkedIn](https://www.linkedin.com/in/erwan-maigne-montamat-16196a23/)** · **[GitHub](https://github.com/ErwanLucienMMV)**
+
+</div>
+
+---
+
+<div align="center">
+
+*Always learning. Always building.*
+
+</div>
