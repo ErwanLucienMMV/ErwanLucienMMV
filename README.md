@@ -106,7 +106,7 @@ I'm currently looking for an **alternance / professional opportunity** where I c
 
 A Unix shell developed in C as part of the 42 curriculum.
 
-The project focuses on reproducing core Bash behavior while implementing the underlying mechanisms ourselves:
+The project focuses on reproducing core Bash behavior while implementing the underlying mechanisms and learning to work in pairs ourselves:
 
 * Command parsing
 * Pipes and redirections
