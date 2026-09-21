@@ -138,23 +138,6 @@ The project involved implementing the mathematical and graphical foundations req
 
 ---
 
-### 🌐 WebServ
-
-A web server written in **C++98**, inspired by the architecture and behavior of Nginx.
-
-The project focuses heavily on systems and networking:
-
-* Object-oriented C++98
-* HTTP protocol
-* Socket programming
-* Event-driven architecture
-* Network I/O
-* Server architecture
-
-**Stack:** `C++98` · `HTTP` · `Linux` · `Sockets` · `Git`
-
----
-
 ### 🏗️ Inception
 
 A containerized infrastructure project built around a multi-service web stack.
