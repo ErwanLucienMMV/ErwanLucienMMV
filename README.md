@@ -302,7 +302,7 @@ That means I'm comfortable moving between:
 ├─────────────────────────────────────────────┤
 │ Containers · CI/CD · Deployment             │
 ├─────────────────────────────────────────────┤
-│ Networking · HTTP · TCP · Sockets            │
+│ Networking · HTTP · TCP · Sockets           │
 ├─────────────────────────────────────────────┤
 │ Processes · Files · Memory · Unix           │
 └─────────────────────────────────────────────┘
