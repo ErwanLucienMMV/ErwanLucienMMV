@@ -11,7 +11,7 @@
 <a href="mailto:erwan.maigne@proton.me">
   <img src="https://img.shields.io/badge/Email-erwan.maigne%40proton.me-informational?style=for-the-badge" alt="Email">
 </a>
-<a href="https://www.linkedin.com/in/erwan-maigne-montamat-16196a23/">
+<a href="https://www.linkedin.com/in/erwan-maigne-montamat/">
   <img src="https://img.shields.io/badge/LinkedIn-Erwan%20Maigne%20Montamat-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>
 <a href="https://github.com/ErwanLucienMMV">
