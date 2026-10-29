@@ -28,7 +28,7 @@ I'm **Erwan Maigne Montamat**, a French developer and student at **42**, current
 
 My background combines **software development, systems programming and full-stack web development**, with professional experience working on collaborative development projects and CI/CD environments.
 
-I'm particularly interested in **software engineering, AI and cybersecurity**, and I enjoy understanding how things work underneath the abstractions — from Unix processes and network sockets to web architectures and containerized applications.
+I'm particularly interested in **software engineering, AI and cybersecurity**, and I enjoy understanding how things work underneath the abstractions — from Unix processes and network sockets to web architectures and containerized applications even tho lately as I'm discovering the AI I'm also looking for the limits of "vibe coding".
 
 I'm currently looking for an **alternance / professional opportunity** where I can continue developing my skills while contributing to real-world projects.
 
