@@ -12,6 +12,8 @@ from scripts.language_data import (
     GitHubClient, StatsError, collect_languages, distribution, language_color,
     load_config, validate_languages,
 )
+from scripts.generate_languages import generate, main, render_svg, write_if_changed
+import xml.etree.ElementTree as ET
 
 
 def config(**overrides):
@@ -144,6 +146,94 @@ class ClientTests(unittest.TestCase):
         open_url.return_value.__enter__.return_value = io.BytesIO(b'not json')
         with self.assertRaisesRegex(StatsError, "invalid JSON"):
             GitHubClient("").get("/repos/example/one")
+
+
+class RenderingTests(unittest.TestCase):
+    def test_svg_is_valid_accessible_and_self_contained(self):
+        svg = render_svg({"C": 55, "Python": 45})
+        root = ET.fromstring(svg)
+        ns = {"s": "http://www.w3.org/2000/svg"}
+        self.assertEqual(root.attrib["role"], "img")
+        self.assertTrue(root.find("s:title", ns).text)
+        self.assertIn("55.0%", root.find("s:desc", ns).text)
+        self.assertIn(b"prefers-color-scheme: dark", svg)
+        self.assertNotIn(b"<script", svg)
+        self.assertNotIn(b"<image", svg)
+
+    def test_untrusted_text_is_escaped(self):
+        name = '<script>"hello" & world</script>'
+        svg = render_svg({name: 10})
+        root = ET.fromstring(svg)
+        self.assertIn(name, root.find("{http://www.w3.org/2000/svg}desc").text)
+        self.assertNotIn(b"<script>", svg)
+
+    def test_empty_single_and_many_languages(self):
+        self.assertIn(b"No language data available", render_svg({}))
+        self.assertIn(b"100.0%", render_svg({"C": 1}))
+        data = {f"Language {i}": i + 1 for i in range(50)}
+        svg = render_svg(data, top_n=12)
+        root = ET.fromstring(svg)
+        labels = root.findall("{http://www.w3.org/2000/svg}circle")
+        self.assertEqual(len(labels), 13)
+        self.assertIn(b"Other", svg)
+
+    def test_very_long_names_have_bounded_labels(self):
+        svg = render_svg({"W" * 128: 20})
+        self.assertIn(b'textLength="530"', svg)
+        self.assertIn(("W" * 47 + "…").encode(), svg)
+
+    def test_reproducible_regardless_of_input_order(self):
+        data = {"C": 30, "Python": 20, "Unknown": 5}
+        self.assertEqual(render_svg(data), render_svg(dict(reversed(list(data.items())))))
+
+    def test_identical_output_does_not_change_file_or_mtime(self):
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / "languages.svg"
+            svg = render_svg({"C": 1})
+            self.assertTrue(write_if_changed(path, svg))
+            modified = path.stat().st_mtime_ns
+            self.assertFalse(write_if_changed(path, svg))
+            self.assertEqual(path.stat().st_mtime_ns, modified)
+            self.assertEqual(path.read_bytes(), svg)
+
+    def test_generation_failure_preserves_existing_svg(self):
+        for failure in (StatsError("HTTP 403 rate limit"), StatsError("HTTP 404"),
+                        StatsError("malformed data"), StatsError("network failed")):
+            with self.subTest(failure=failure), tempfile.TemporaryDirectory() as folder:
+                path = Path(folder) / "languages.svg"
+                path.write_bytes(b"previous valid statistics")
+                settings = Path(folder) / "config.json"
+                settings.write_text(json.dumps(config()))
+                client = Mock()
+                client.get.side_effect = failure
+                with self.assertRaises(StatsError):
+                    generate(settings, path, client)
+                self.assertEqual(path.read_bytes(), b"previous valid statistics")
+
+    @patch("scripts.generate_languages.os.replace", side_effect=OSError("disk failure"))
+    def test_atomic_write_failure_preserves_existing_svg(self, replace):
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / "languages.svg"
+            path.write_bytes(b"previous statistics")
+            with self.assertRaises(OSError):
+                write_if_changed(path, render_svg({"C": 10}))
+            self.assertEqual(path.read_bytes(), b"previous statistics")
+            self.assertEqual(list(Path(folder).iterdir()), [path])
+
+    def test_two_complete_fixture_runs_have_no_diff(self):
+        with tempfile.TemporaryDirectory() as folder:
+            path = Path(folder) / "languages.svg"
+            settings = Path(folder) / "config.json"
+            settings.write_text(json.dumps(config()))
+            client = Mock()
+            for expected_change in (True, False):
+                client.get.side_effect = [metadata(), {"C": 30}, metadata(), {"Python": 20}]
+                self.assertEqual(generate(settings, path, client), expected_change)
+
+    def test_cli_refuses_readme_as_output(self):
+        with patch("sys.stderr", new=io.StringIO()), self.assertRaises(SystemExit) as raised:
+            main(["--output", "README.md"])
+        self.assertEqual(raised.exception.code, 2)
 
 
 if __name__ == "__main__":
