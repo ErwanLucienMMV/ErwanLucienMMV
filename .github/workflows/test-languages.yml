@@ -1,0 +1,48 @@
+name: Validate language statistics
+
+on:
+  push:
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - 'config/languages.json'
+      - '.github/workflows/*languages.yml'
+  pull_request:
+    paths:
+      - 'scripts/**'
+      - 'tests/**'
+      - 'config/languages.json'
+      - '.github/workflows/*languages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: language-statistics-validation-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - name: Run offline tests
+        run: python -m unittest discover -s tests -v
+      - name: Generate public preview without publishing
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_languages.py --output "$RUNNER_TEMP/languages.svg"
+      - name: Upload SVG preview
+        uses: actions/upload-artifact@330a01c490aca151604b8cf639adc76d48f6c5d4 # v5
+        with:
+          name: language-statistics-preview
+          path: ${{ runner.temp }}/languages.svg
+          retention-days: 7
+          if-no-files-found: error

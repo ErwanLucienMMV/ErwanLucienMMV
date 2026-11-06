@@ -80,3 +80,50 @@ Identical data does not change the file or its modification time. The SVG has no
 changing timestamp, JavaScript, remote image, font download or external service.
 Its accessible description includes the values, and its colors adapt to the
 viewer's light or dark color scheme.
+
+## GitHub Actions
+
+[`update-languages.yml`](../.github/workflows/update-languages.yml) has manual
+`workflow_dispatch` and scheduled `17 */6 * * *` triggers: 00:17, 06:17, 12:17
+and 18:17 UTC. GitHub may delay scheduled runs and can disable schedules in a
+public repository after 60 days without repository activity; check the Actions
+tab if updates stop. See GitHub's
+[event documentation](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule).
+
+The validation job has `contents: read` and runs all offline tests. Only the
+publishing job has `contents: write`, and its condition restricts it to the
+default branch. A manual run on another branch can test the code but skips
+publication. Actions are pinned to verified commit SHAs. The generator uses the
+built-in `GITHUB_TOKEN`; no personal token, cross-repository secret or external
+hosting is required. See
+[GitHub's token documentation](https://docs.github.com/en/actions/tutorials/authenticate-with-github_token).
+
+The publisher stages only `assets/languages.svg`, refuses unexpected staged
+files, and skips the commit and push if its bytes are unchanged. It never writes
+the README. A single concurrency group serializes publishing runs. The regular
+push fails if a newer commit arrived or branch protection rejects the bot. The
+workflow does not force a push, rewrite history or alter protections. Review and
+rerun a stale update; if protection requires a PR, prepare an SVG-only update PR
+through the team's approved process. Automatic PR creation is not configured in
+V1 and would require an explicit decision and the additional PR permission.
+
+[`test-languages.yml`](../.github/workflows/test-languages.yml) runs on relevant
+branch pushes and pull requests, plus manual invocation once registered on the
+default branch. It has read-only repository permissions, runs the same tests,
+and generates a live SVG in the runner's temporary directory. That public-only
+preview is available as a seven-day workflow artifact. It never publishes a
+commit. SVG-only bot updates do not match its push path filter, and updates
+made with `GITHUB_TOKEN` normally do not trigger further workflows.
+
+The initial publishing workflow cannot be manually dispatched before it exists
+on the default branch. Feature-branch CI validates this implementation without
+publishing to `main`. After review and merge, run **Update language statistics**
+once on the default branch and verify that an unchanged SVG produces no commit;
+then check a scheduled run. This post-merge production check remains a deployment
+step and is not claimed by local or feature-branch validation.
+
+For a future V2, source repositories could request an update with
+`repository_dispatch` or `workflow_dispatch` after a merge. That requires an
+explicitly approved GitHub App or other credential with the appropriate
+cross-repository permissions. No such credential or source workflow is installed
+by V1.
