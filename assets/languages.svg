@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="446" viewBox="0 0 720 446" role="img" aria-labelledby="title description">
+<title id="title">Languages across my projects</title>
+<desc id="description">Share of GitHub Linguist code bytes in selected public projects. TypeScript: 62.0%; JavaScript: 16.6%; C: 7.3%; C++: 5.4%; HTML: 4.6%; CSS: 1.4%; Python: 0.9%; Other: 1.8%. This measures repository code, not skill or personal contributions.</desc>
+<style>
+text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #1f2328; }
+.muted { fill: #59636e; } .card { fill: #ffffff; stroke: #d1d9e0; }
+.track { fill: #eaeef2; } .swatch { stroke: #59636e; stroke-width: 0.5; }
+@media (prefers-color-scheme: dark) { text { fill: #f0f6fc; } .muted { fill: #b1bac4; } .card { fill: #0d1117; stroke: #3d444d; } .track { fill: #212830; } .swatch { stroke: #b1bac4; } }
+</style>
+<rect class="card" x="0.5" y="0.5" width="719" height="445" rx="16"/>
+<text x="28" y="42" font-size="22" font-weight="600">Languages across my projects</text>
+<text class="muted" x="28" y="68" font-size="13">Share of code bytes · selected public projects</text>
+<defs><clipPath id="bar"><rect x="28" y="90" width="664" height="16" rx="8"/></clipPath></defs>
+<rect class="track" x="28" y="90" width="664" height="16" rx="8"/>
+<g clip-path="url(#bar)">
+<rect x="28.0000" y="90" width="411.5750" height="16" fill="#3178c6"/>
+<rect x="439.5750" y="90" width="110.3526" height="16" fill="#f1e05a"/>
+<rect x="549.9276" y="90" width="48.3638" height="16" fill="#555555"/>
+<rect x="598.2914" y="90" width="35.7693" height="16" fill="#f34b7d"/>
+<rect x="634.0607" y="90" width="30.6789" height="16" fill="#e34c26"/>
+<rect x="664.7396" y="90" width="9.1737" height="16" fill="#663399"/>
+<rect x="673.9133" y="90" width="6.0875" height="16" fill="#3572a5"/>
+<rect x="680.0008" y="90" width="11.9992" height="16" fill="#8b949e"/>
+</g>
+<circle class="swatch" cx="35" cy="137" r="5" fill="#3178c6"/>
+<text x="50" y="142" font-size="15"><title>TypeScript</title>TypeScript</text>
+<text x="692" y="142" text-anchor="end" font-size="15" font-weight="600">62.0%</text>
+<circle class="swatch" cx="35" cy="169" r="5" fill="#f1e05a"/>
+<text x="50" y="174" font-size="15"><title>JavaScript</title>JavaScript</text>
+<text x="692" y="174" text-anchor="end" font-size="15" font-weight="600">16.6%</text>
+<circle class="swatch" cx="35" cy="201" r="5" fill="#555555"/>
+<text x="50" y="206" font-size="15"><title>C</title>C</text>
+<text x="692" y="206" text-anchor="end" font-size="15" font-weight="600">7.3%</text>
+<circle class="swatch" cx="35" cy="233" r="5" fill="#f34b7d"/>
+<text x="50" y="238" font-size="15"><title>C++</title>C++</text>
+<text x="692" y="238" text-anchor="end" font-size="15" font-weight="600">5.4%</text>
+<circle class="swatch" cx="35" cy="265" r="5" fill="#e34c26"/>
+<text x="50" y="270" font-size="15"><title>HTML</title>HTML</text>
+<text x="692" y="270" text-anchor="end" font-size="15" font-weight="600">4.6%</text>
+<circle class="swatch" cx="35" cy="297" r="5" fill="#663399"/>
+<text x="50" y="302" font-size="15"><title>CSS</title>CSS</text>
+<text x="692" y="302" text-anchor="end" font-size="15" font-weight="600">1.4%</text>
+<circle class="swatch" cx="35" cy="329" r="5" fill="#3572a5"/>
+<text x="50" y="334" font-size="15"><title>Python</title>Python</text>
+<text x="692" y="334" text-anchor="end" font-size="15" font-weight="600">0.9%</text>
+<circle class="swatch" cx="35" cy="361" r="5" fill="#8b949e"/>
+<text x="50" y="366" font-size="15"><title>Other</title>Other</text>
+<text x="692" y="366" text-anchor="end" font-size="15" font-weight="600">1.8%</text>
+<text class="muted" x="28" y="420" font-size="12">Repository code distribution · Not skill or personal contribution</text>
+</svg>

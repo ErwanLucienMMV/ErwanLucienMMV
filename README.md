@@ -368,3 +368,14 @@ If you'd like to discuss a project, an opportunity, or simply talk about technol
 *Always learning. Always building.*
 
 </div>
+
+
+<!-- LANGUAGE_STATS:START -->
+
+## Languages across my projects
+
+![Language distribution](./assets/languages.svg)
+
+Based on code bytes in selected public repositories. [Method, scope and limitations](./docs/language-statistics.md).
+
+<!-- LANGUAGE_STATS:END -->
