@@ -21,9 +21,10 @@
     "Cpp04",
     "Cpp08",
     "Cpp09",
-    "my_so_long"
+    "my_so_long",
+    "TonTonTonBeaufSurDiscord"
   ],
-  "exclude": ["ErwanLucienMMV", "AngularPortfolioLive", "ft_minishell", "minirt"],
+  "exclude": ["ErwanLucienMMV", "AngularPortfolioLive"],
   "allow_forks": [],
   "allow_archived": [],
   "top_n": 7,
