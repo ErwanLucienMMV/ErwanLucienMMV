@@ -22,12 +22,13 @@ This feature does not modify any source repository.
 ## Repository selection
 
 [`config/languages.json`](../config/languages.json) is the source of truth.
-The initial selection was verified through the public GitHub API on 6 November
-2026. It includes these 12 projects:
+The current selection was verified through the public GitHub API on 7 November
+2026. It includes these 21 projects:
 
 | Area | Selected repositories |
 | --- | --- |
-| Systems | `ft_irc`, `Inception`, `MyGNL`, `my_philosopher`, `my_pipex`, `mypushswap` |
+| Systems | `ft_irc`, `Inception`, `MyGNL`, `my_philosopher`, `my_pipex`, `mypushswap`, `minirt`, `ft_minishell`, `DrQuinn`, `my_so_long` |
+| C++ exercises | `Cpp00`, `Cpp03`, `Cpp04`, `Cpp08`, `Cpp09` |
 | Web and personal projects | `AngularPortfolio`, `AtlasDominion`, `ft_transcendance`, `vrising-server-configurator-tool` |
 | Training and tooling | `HNFormationAPI`, `TonTonTonBeaufSurDiscord` |
 
@@ -38,7 +39,8 @@ Repository names are checked case-insensitively for exclusions and duplicates.
 - `username`: the public GitHub account owning the selected projects.
 - `include`: explicit repository names; no automatic discovery is performed.
 - `exclude`: takes precedence over inclusion. `AngularPortfolioLive` is omitted
-  as a deployment copy, and `ft_minishell` and `minirt` are excluded forks.
+  as a deployment copy. `minirt` and `ft_minishell` are included and explicitly
+  listed in `allow_forks` because they are collaborative projects I contributed to.
 - The profile repository itself is always excluded, including its generated SVG.
 - Forks and archived repositories are skipped unless named in `allow_forks` or
   `allow_archived`. Private repositories always stop publication before their
@@ -67,8 +69,8 @@ Run the generator from any directory. Optional arguments are `--config PATH` and
 `GITHUB_TOKEN` environment variable authenticates public API requests; a personal
 access token is unnecessary. Never put credentials into the configuration.
 
-Each selected project needs two REST requests, so the initial configuration needs
-24 per generation. Unauthenticated local use can hit GitHub's API limits.
+Each selected project needs two REST requests, so the current configuration needs
+42 per generation. Unauthenticated local use can hit GitHub's API limits.
 Requests have a 20-second timeout and at most three attempts for transport
 errors, HTTP 429 and transient server failures. HTTP 401/403/404 and malformed
 responses fail with a diagnostic. Response bodies and tokens are not logged.

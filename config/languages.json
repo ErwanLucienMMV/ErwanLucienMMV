@@ -24,13 +24,13 @@
     "my_so_long"
   ],
   "exclude": ["ErwanLucienMMV", "AngularPortfolioLive"],
-  "allow_forks": [],
+  "allow_forks": ["minirt", "ft_minishell"],
   "allow_archived": [],
   "top_n": 7,
   "show_other": true,
   "notes": [
     "Explicit representative selection of public systems, web, training and personal projects, verified via GitHub API on 2026-11-06.",
-    "The profile repository is always excluded. AngularPortfolioLive is a deployment copy; ft_minishell and minirt are forks, added ft_minishell and minirt because even tho they are group project I also took ft_transcendence into my stats",
+    "The profile repository is always excluded. AngularPortfolioLive is a deployment copy. minirt and ft_minishell are explicitly allowed forks because I contributed to these collaborative projects.",
     "Other repositories are omitted unless explicitly added to include. Private repositories are never included.",
     "GitHub Linguist bytes measure repository code distribution, not skill or personal contributions."
   ]
