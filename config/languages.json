@@ -21,7 +21,8 @@
     "Cpp04",
     "Cpp08",
     "Cpp09",
-    "my_so_long"
+    "my_so_long",
+    "Piscine-Django-42"
   ],
   "exclude": ["ErwanLucienMMV", "AngularPortfolioLive"],
   "allow_forks": ["minirt", "ft_minishell"],
