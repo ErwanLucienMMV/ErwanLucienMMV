@@ -13,14 +13,14 @@ text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; f
 <defs><clipPath id="bar"><rect x="28" y="90" width="664" height="16" rx="8"/></clipPath></defs>
 <rect class="track" x="28" y="90" width="664" height="16" rx="8"/>
 <g clip-path="url(#bar)">
-<rect x="28.0000" y="90" width="281.4344" height="16" fill="#3178c6"/>
-<rect x="309.4344" y="90" width="158.5102" height="16" fill="#555555"/>
-<rect x="467.9446" y="90" width="76.4364" height="16" fill="#f1e05a"/>
-<rect x="544.3810" y="90" width="42.8576" height="16" fill="#f34b7d"/>
-<rect x="587.2387" y="90" width="34.7533" height="16" fill="#e34c26"/>
-<rect x="621.9920" y="90" width="33.8955" height="16" fill="#3572a5"/>
-<rect x="655.8875" y="90" width="9.8144" height="16" fill="#663399"/>
-<rect x="665.7019" y="90" width="26.2981" height="16" fill="#8b949e"/>
+<rect x="28.0000" y="90" width="281.4702" height="16" fill="#3178c6"/>
+<rect x="309.4702" y="90" width="158.5303" height="16" fill="#555555"/>
+<rect x="468.0005" y="90" width="76.4461" height="16" fill="#f1e05a"/>
+<rect x="544.4466" y="90" width="42.7787" height="16" fill="#f34b7d"/>
+<rect x="587.2254" y="90" width="34.7577" height="16" fill="#e34c26"/>
+<rect x="621.9831" y="90" width="33.8998" height="16" fill="#3572a5"/>
+<rect x="655.8829" y="90" width="9.8157" height="16" fill="#663399"/>
+<rect x="665.6986" y="90" width="26.3014" height="16" fill="#8b949e"/>
 </g>
 <circle class="swatch" cx="35" cy="137" r="5" fill="#3178c6"/>
 <text x="50" y="142" font-size="15"><title>TypeScript</title>TypeScript</text>
